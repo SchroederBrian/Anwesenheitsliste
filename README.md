@@ -179,3 +179,21 @@ GT (Gleittag)
 BS/S/DR (Berufsschule, Schulung, Dienstreise)
 K (Krank)
 abw (Abwesend)
+
+## Frontend – Mockup (V1)
+
+Diese erste Version enthält ausschließlich das Frontend-Gerüst (Next.js 14, React 18, Tailwind CSS). Eine echte Datenbank- oder API-Anbindung ist noch nicht vorhanden und wird in **Version 2** integriert.
+
+### Lokale Entwicklung starten
+
+Voraussetzungen: Node.js ≥ 18
+
+```bash
+# Abhängigkeiten installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
+```
+
+Der Server läuft standardmäßig auf http://localhost:3000. Nutzen Sie die Sidebar, um zwischen den verschiedenen Seiten (Kalender, Übersicht usw.) zu navigieren.
